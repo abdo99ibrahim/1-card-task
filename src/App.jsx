@@ -1,16 +1,14 @@
+import * as React from 'react';
+import Stack from '@mui/material/Stack';
+import Card from './components/Card/Card';
 function App() {
   return (
     <div>
-      <header>
-        <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
-        <h1>React Essentials</h1>
-        <p>
-          Fundamental React concepts you will need for almost any app you are
-          going to build!
-        </p>
-      </header>
       <main>
-        <h2>Time to get started!</h2>
+      <Stack spacing={2} justifyContent="center" alignItems="center" minHeight="100vh">
+      <Card/>
+    </Stack>
+
       </main>
     </div>
   );
