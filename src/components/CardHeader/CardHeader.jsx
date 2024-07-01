@@ -223,6 +223,7 @@ export default function CardHeader({ handleClose }) {
                   >
                     <img
                       src={data[value].image}
+                      // src={data[value].image}
                       alt="Option"
                       style={{
                         width: "25px",
